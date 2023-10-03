@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghu_05</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/99d26bf654.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/lo.jpg" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#profiles">Profiles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>UI/UX Designer</p> --> <br><br><br><br>
+                <h1>Hi, I am <span>Vansh Raghuvanshi</span> <br>from NIT Warangal</h1>
+            </div>
+        </div>
+    </div>
+<!------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/back.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <p class="aboutt">I am a computer science student who loves to travel, practice karate,
+                         swimx, and engage in competitive programming. An enthusiastic learner, I'm passionate 
+                         about coding, constantly exploring new algorithms and programming languages. Traveling 
+                         to new places is a cherished hobby, allowing me to immerse myself in diverse cultures and 
+                         landscapes. Badminton and swimming keep me active and provide moments of relaxation. 
+                         Competitive programming is where I thrive, solving complex problems and pushing my analytical 
+                         skills to the limit. In essence, I'm a curious computer science enthusiast with a zest for 
+                         adventure and a commitment to continuous learning.
+                    </p>
+                    <br><br><br>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Qualities</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>HTML5, CSS3, JavaScript, PHP</li>
+                                <li><span>Database Management</span><br>ORACLE MYSQL, PLSQL</li>
+                                <li><span>Programmer</span><br>C++, JAVA, R</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Leadership</span><br>Decisive leadership skills</li>
+                                <li><span>Effective Communicator</span><br>Active Communicator</li> 
+                                <li><span>Critical Thinking</span><br>Analytical and Logical Thinking</li>
+                                <li><span>Problem solver</span><br>Innovative and Pragmatic problem solver</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>MCA from National Institute of Technology Warangal</li>
+                                <li><span>2022</span><br>BCA from Dr. A.P.J. Abdul Kalam University,Indore</li>
+                                <li><span>2019</span><br>12th from Mar Thoma Hr. Sr. School, Indore</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am a skilled web designer, dedicated to crafting visually 
+                        appealing and user-friendly websites. I focus on creating 
+                        seamless user experiences and staying updated with the latest design trends. 
+                        My commitment to excellence ensures that every website I 
+                        design effectively communicates its message and engages visitors.</p>
+                        <a href="https://github.com/raghu05">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I'm a skilled UI/UX designer dedicated to crafting user-friendly and visually
+                        appealing digital experiences. My approach centers on user needs and behaviors, 
+                        resulting in intuitive interfaces that enhance usability. With a keen eye for 
+                        detail and a commitment to staying current with design trends, 
+                       I create engaging and efficient designs that leave a lasting impact.</p>
+                        <a href="https://github.com/raghu05">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Software Developer</h2>
+                    <p>I'm a versatile software developer, skilled in multiple 
+                        programming languages and technologies. I excel in creating 
+                        efficient, user-friendly applications, constantly staying 
+                        updated with emerging technologies. My commitment to quality 
+                        and innovation drives me to craft reliable software that turns ideas into success.</p>
+                        <a href="https://github.com/raghu05">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------portfolio--------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Horoscope Predictor</h3>
+                        <p>A command-line application that predicts daily horoscopes.
+                             Tools & technologies used:C++ programming language.
+                             Zodiac sign determination based on birth date.
+                             Daily horoscope prediction based on the user's zodiac sign
+                             Interactive command-line interface for user input.
+                             Error handling for invalid user inputs.
+                            </pre> 
+                        </p>
+                            <a href="https://github.com/raghu05"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                     <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Online-Shopping-Store Website</h3>
+                        <p>A website for purchase Cloths and others items.
+                             Tools & technologies used: HTML, CSS , PHP and JavaScript
+                             Implemented Shopping Cart, Catalogue, Products details section.
+                             Add User Authentication: Sign up and log in securely to access.
+                             Implemented Nav-bar,Section body and Site Structure Using HTML.
+                             Color themes, Formatting and Presentation using CSS.
+                             Bootstrap and CSS framework for responsive design and UI components.
+                            </p>
+                            <a href="https://github.com/raghu05"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>C++ Puzzle sort game using OOPS concept</h3>
+                        <p>C++ based puzzle game to sort the given 2d array 
+                            manually and put the 2 zeroes at the end of the array.
+                            </p>
+                            <a href="https://github.com/raghu05"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/raghu05" class="btn">See more</a>
+        </div>
+    </div>
+
+        <!-- -----------competitive programming profiles--------- -->
+
+    <div id="profiles">
+        <div class="container">
+            <h1 class="sub-title">Programming Profiles</h1>
+            <div class="profile-links">
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>LeetCode</h2>
+                    <a href="https://leetcode.com/_raghu_05/" target="_blank">Visit Profile</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>CodeChef</h2>
+                    <a href="https://www.codechef.com/users/raghu_91" target="_blank">Visit Profile</a>
+                </div>
+                <div>
+                    <i class="fab fa-hackerrank"></i>
+                    <h2>HackerRank</h2>
+                    <a href="https://www.hackerrank.com/_raghu_05" target="_blank">Visit Profile</a>
+                </div>
+                <div>
+                    <i class="fab fa-free-code-camp"></i>
+                    <h2>GeeksforGeeks</h2>
+                    <a href="https://auth.geeksforgeeks.org/user/raghu05" target="_blank">Visit Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+<!-- -----------contact------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>vanshraghuvanshi02@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>8964811000</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_raghu_05/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/vansh.raghuvanshi.94?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/raghu05/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/8964811000"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Raghu_05 <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<form name="submit-to-google-sheet">
+    <!-- <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button> -->
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzEuwqzCyErKy0fRQHekfILGla-SyaJcO-cv6XSFTwemSYrXhZ7ZSCT7BYhJfHdFTkkKg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
